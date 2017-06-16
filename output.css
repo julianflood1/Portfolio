@@ -38,6 +38,8 @@ h1 {
   height: 600px;
   justify-content: center;
   align-items: center; }
+  .landing h1 {
+    color: yellow; }
 
 .panel {
   height: 350px;
