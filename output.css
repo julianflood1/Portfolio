@@ -12,8 +12,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
-  height: 180vh; }
+  flex-direction: column; }
 
 .main {
   display: flex;
@@ -22,6 +21,14 @@ body {
 
 h1 {
   text-align: center; }
+
+.skills {
+  display: flex;
+  flex-direction: column; }
+  .skills li {
+    list-style-type: none;
+    font-size: 40px;
+    padding: 20px; }
 
 .experience {
   display: flex;

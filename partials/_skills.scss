@@ -4,7 +4,36 @@ h1 {
 
 .skills {
   display: flex;
+  flex-direction: column;
   li {
     list-style-type: none;
+    font-size: 40px;
+    padding: 20px;
   }
 }
+
+// 
+// .effects li:before,
+// .effects li:after {
+//     display: inline-block;
+//     opacity: 0;
+//     transition: transform 0.3s, opacity 0.2s;
+// }
+//
+// .effects li:before {
+//     margin-right: 10px;
+//     content: '[';
+//     transform: translate(20px);
+// }
+//
+// .effects li:after {
+//     margin-left: 10px;
+//     content: ']';
+//     transform: translate(-20px);
+// }
+//
+// .effects li:focus:before,
+// .effects li:focus:after {
+//     opacity: 1;
+//     transform: translate(0px);
+// }
