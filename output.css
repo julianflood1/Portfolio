@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 180vh; }
+
+.main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column; }
+
+h1 {
+  text-align: center; }
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black; }
+  .experience h1 {
+    text-align: center;
+    margin: 0; }
+
+.landing {
+  display: flex;
+  background-image: url("img/hawaii.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  align-items: center; }
+
+.panel {
+  height: 350px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; }
+
+.panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img {
+  background-image: url("img/blazers.png");
+  background-size: cover;
+  background-position: center; }
+
+#panel-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img {
+  width: 100%;
+  height: 80%;
+  border: solid black 2px;
+  background-size: cover;
+  background-position: top center;
+  align-self: flex-end; }
+
+#blazer-img {
+  background-image: url(img/blazers.png); }
+
+#arctic-wild-img {
+  background-image: url(img/arctic-wild.png); }
+
+#album-artwork-img {
+  background-image: url(img/album-artwork.png); }
+
+#rotten-tomatoes-img {
+  background-image: url(img/rotten-tomatoes.png);
+  width: 100%; }
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px; }
+  .navbar h2 {
+    margin: none; }
+
+.navbar, .footer {
+  background-color: grey;
+  color: white;
+  height: 40px; }
+
+/*# sourceMappingURL=output.css.map */

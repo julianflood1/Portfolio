@@ -1,0 +1,51 @@
+.panel {
+  height: 350px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.panel-img {
+  background-image: url('img/blazers.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#panel-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  // padding: 20px;
+}
+
+
+.panel-img {
+  width: 100%;
+  height: 80%;
+  border: solid black 2px;
+  background-size: cover;
+  background-position: top center;
+  align-self: flex-end;
+}
+#blazer-img {
+  @extend .panel-img ;
+  background-image: url(img/blazers.png);
+}
+#arctic-wild-img {
+  @extend .panel-img;
+  background-image: url(img/arctic-wild.png);
+}
+#album-artwork-img {
+  @extend .panel-img;
+  background-image: url(img/album-artwork.png);
+}
+#rotten-tomatoes-img {
+  @extend .panel-img;
+  background-image: url(img/rotten-tomatoes.png);
+  width: 100%;
+}
