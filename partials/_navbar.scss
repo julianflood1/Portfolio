@@ -5,6 +5,7 @@
   z-index: 1;
   justify-content: space-between;
   align-items: center;
+  opacity: .7;
   li {
     list-style-type: none;
     display: inline;
@@ -12,11 +13,12 @@
   }
   h2{
     margin: none;
+    letter-spacing: 3px;
   }
 }
 
 .navbar, .footer {
-  background-color: grey;
+  background-color: #373737;
   color: white;
   height: 40px;
 }

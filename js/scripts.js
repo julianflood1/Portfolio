@@ -11,4 +11,8 @@ $(function(){
       $this.css('transform', 'translateY(' + val + 'px)');
     });
   });
-})
+
+  $('.experience-link').click(function() {
+    $('html, body').animate({ scrollTop: $(".experience").offset().top }, "slow");
+  });
+});

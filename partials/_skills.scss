@@ -1,3 +1,10 @@
 h1 {
   text-align: center;
 }
+
+.skills {
+  display: flex;
+  li {
+    list-style-type: none;
+  }
+}

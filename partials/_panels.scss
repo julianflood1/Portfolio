@@ -1,12 +1,18 @@
 .panel {
   height: 350px;
-  width: 300px;
+  width: 350px;
   border: 1px solid black;
   background-color: yellow;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   margin: 10px;
+  flex-grow: 1;
+  p {
+    font-size: 30px;
+    margin: 0;
+  }
 }
 
 .panel-img {
@@ -30,7 +36,6 @@
   border: solid black 2px;
   background-size: cover;
   background-position: top center;
-  align-self: flex-end;
 }
 #blazer-img {
   @extend .panel-img ;
