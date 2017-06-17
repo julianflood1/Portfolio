@@ -15,6 +15,10 @@ h1 {
   cursor: pointer;
 }
 
+.skills-target {
+  @extend .header-style;
+}
+
 //
 // .effects li:before,
 // .effects li:after {

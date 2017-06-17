@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  border: 1px solid black;
   width: 100%;
   height: 100%;
   h1 {
@@ -12,4 +11,8 @@
 }
 .experience-link:hover {
   cursor: pointer;
+}
+
+.experience-target {
+ @extend .header-style;
 }

@@ -22,3 +22,18 @@
   color: white;
   height: 40px;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#back-to-top {
+  padding-right: 5%;
+  height: 20px;
+}
+#copywrite {
+  padding-left: 5%;
+}
+#back-to-top:hover {
+  cursor: pointer;
+}

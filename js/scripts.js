@@ -26,4 +26,8 @@
     $("body, html").stop()
     $("body, html").animate({ scrollTop: $(".contact-target").offset().top - 40}, "slow");
   });
+  $("#back-to-top").click(function(){
+    $("body, html").stop()
+    $("body, html").animate({ scrollTop: $(".container").offset().top - 40}, "slow");
+  });
 });

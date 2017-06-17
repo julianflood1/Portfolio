@@ -1,0 +1,6 @@
+.contact-link:hover {
+  cursor: pointer;
+}
+.contact-target {
+  @extend .header-style;
+}
