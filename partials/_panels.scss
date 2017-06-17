@@ -9,10 +9,14 @@
   justify-content: flex-end;
   margin: 10px;
   flex-grow: 1;
+  transition: all .2s ease-in-out;
   p {
     font-size: 30px;
     margin: 0;
   }
+}
+.panel:hover {
+  transform: scale(1.2);
 }
 
 .panel-img {

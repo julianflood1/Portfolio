@@ -30,6 +30,9 @@ h1 {
     font-size: 40px;
     padding: 20px; }
 
+.skills-link:hover {
+  cursor: pointer; }
+
 .experience {
   display: flex;
   flex-direction: column;
@@ -68,10 +71,14 @@ h1 {
   align-items: center;
   justify-content: flex-end;
   margin: 10px;
-  flex-grow: 1; }
+  flex-grow: 1;
+  transition: all .2s ease-in-out; }
   .panel p {
     font-size: 30px;
     margin: 0; }
+
+.panel:hover {
+  transform: scale(1.2); }
 
 .panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img {
   background-image: url("img/blazers.png");

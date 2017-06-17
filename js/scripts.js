@@ -16,6 +16,14 @@
 
   $(".experience-link").click(function(){
     $("body, html").stop()
-    $("body, html").animate({ scrollTop: $(".experience").offset().top - 40}, "slow");
+    $("body, html").animate({ scrollTop: $(".experience-target").offset().top - 40}, "slow");
+  });
+  $(".skills-link").click(function(){
+    $("body, html").stop()
+    $("body, html").animate({ scrollTop: $(".skills-target").offset().top - 40}, "slow");
+  });
+  $(".contact-link").click(function(){
+    $("body, html").stop()
+    $("body, html").animate({ scrollTop: $(".contact-target").offset().top - 40}, "slow");
   });
 });
