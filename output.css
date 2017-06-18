@@ -147,7 +147,8 @@ h1 {
 
 .text p, h3 {
   color: white;
-  text-align: center; }
+  text-align: center;
+  margin: 15px; }
 
 .navbar {
   display: flex;
