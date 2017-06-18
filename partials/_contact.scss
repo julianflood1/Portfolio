@@ -4,3 +4,11 @@
 .contact-target {
   @extend .header-style;
 }
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  img {
+    margin: 50px;
+  }
+}

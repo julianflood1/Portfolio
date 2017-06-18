@@ -20,14 +20,23 @@ body, html {
   flex-direction: column; }
 
 .header-style, .contact-target, .skills-target, .experience-target {
-  padding: 40px;
-  font-size: 50px; }
+  font-size: 60px;
+  letter-spacing: 6px; }
 
 .contact-link:hover {
   cursor: pointer; }
 
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; }
+  .contact-icons img {
+    margin: 50px; }
+
 h1 {
-  text-align: center; }
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .skills {
   display: flex;
@@ -48,7 +57,8 @@ h1 {
   height: 100%; }
   .experience h1 {
     text-align: center;
-    margin: 0; }
+    margin-bottom: 50px;
+    margin-top: -150px; }
 
 .experience-link:hover {
   cursor: pointer; }
@@ -61,7 +71,8 @@ h1 {
   width: 100%;
   height: 700px;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 10px solid black; }
   .landing h1 {
     font-size: 80px;
     color: white;
@@ -71,7 +82,7 @@ h1 {
   height: 350px;
   width: 350px;
   border: 1px solid black;
-  background-color: yellow;
+  background-color: #e2e2e2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +95,7 @@ h1 {
     margin: 0; }
 
 .panel:hover {
-  transform: scale(1.2); }
+  transform: scale(1.1); }
 
 .panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img {
   background-image: url("img/blazers.png");
@@ -117,6 +128,27 @@ h1 {
   background-image: url(img/rotten-tomatoes.png);
   width: 100%; }
 
+.text {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .8;
+  visibility: hidden;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.panel:hover .text {
+  visibility: visible; }
+
+.text p {
+  font-size: 25px; }
+
+.text p, h3 {
+  color: white;
+  text-align: center; }
+
 .navbar {
   display: flex;
   position: fixed;
@@ -130,7 +162,7 @@ h1 {
     display: inline;
     padding-right: 20px; }
   .navbar h2 {
-    margin: none;
+    margin-left: 1%;
     letter-spacing: 3px; }
 
 .navbar, .footer {
@@ -141,14 +173,17 @@ h1 {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  opacity: .8; }
+  .footer p {
+    margin: 0; }
 
 #back-to-top {
   padding-right: 5%;
   height: 20px; }
 
 #copywrite {
-  padding-left: 5%; }
+  padding-left: 2%; }
 
 #back-to-top:hover {
   cursor: pointer; }
