@@ -21,17 +21,18 @@ body, html {
 
 .header-style, .contact-target, .skills-target, .experience-target {
   font-size: 60px;
-  letter-spacing: 6px; }
+  letter-spacing: 10px; }
+  @media (max-width: 540px) {
+    .header-style, .contact-target, .skills-target, .experience-target {
+      font-size: 10vw; } }
 
 .contact-link:hover {
   cursor: pointer; }
 
 .contact-icons {
   display: flex;
-  justify-content: center;
-  margin-bottom: 30px; }
-  .contact-icons img {
-    margin: 50px; }
+  justify-content: space-around;
+  margin-bottom: 100px; }
 
 h1 {
   text-align: center;
@@ -45,6 +46,10 @@ h1 {
     list-style-type: none;
     font-size: 40px;
     padding: 20px; }
+    @media (max-width: 540px) {
+      .skills li {
+        font-size: 10vw;
+        padding: 20px; } }
 
 .skills-link:hover {
   cursor: pointer; }
@@ -73,10 +78,41 @@ h1 {
   justify-content: center;
   align-items: center;
   border-bottom: 10px solid black; }
+  @media (max-width: 540px) {
+    .landing {
+      height: 600px; } }
   .landing h1 {
-    font-size: 80px;
+    font-size: 60px;
+    text-align: center;
     color: white;
-    -webkit-text-stroke: .1px black; }
+    margin-top: 100px;
+    letter-spacing: 12px; }
+    @media (max-width: 540px) {
+      .landing h1 {
+        text-align: center;
+        font-size: 10vw; } }
+
+.landing-opacity {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  height: 100%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  z-index: 0; }
+
+.landing-text {
+  color: white;
+  opacity: 1;
+  z-index: 1;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -50px; }
+  .landing-text p {
+    font-size: 20px; }
+    @media (max-width: 540px) {
+      .landing-text p {
+        font-size: 4vw; } }
 
 .panel {
   height: 350px;
@@ -90,6 +126,9 @@ h1 {
   margin: 10px;
   flex-grow: 1;
   transition: all .2s ease-in-out; }
+  @media (max-width: 540px) {
+    .panel {
+      width: 80%; } }
   .panel p {
     font-size: 30px;
     margin: 0; }
@@ -157,19 +196,31 @@ h1 {
   z-index: 1;
   justify-content: space-between;
   align-items: center;
-  opacity: .7; }
+  opacity: .8; }
+  @media (max-width: 540px) {
+    .navbar {
+      justify-content: center;
+      width: 100%; } }
   .navbar li {
     list-style-type: none;
     display: inline;
     padding-right: 20px; }
+    @media (max-width: 540px) {
+      .navbar li {
+        display: none; } }
   .navbar h2 {
     margin-left: 1%;
-    letter-spacing: 3px; }
+    letter-spacing: 4px; }
+    @media (max-width: 540px) {
+      .navbar h2 {
+        letter-spacing: 7px;
+        margin-left: 8%; } }
 
 .navbar, .footer {
   background-color: #373737;
   color: white;
-  height: 40px; }
+  height: 40px;
+  border: 1px solid white; }
 
 .footer {
   display: flex;

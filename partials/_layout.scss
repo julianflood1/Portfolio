@@ -11,6 +11,8 @@
 
 .header-style {
   font-size: 60px;
-  letter-spacing: 6px;
-
+  letter-spacing: 10px;
+  @include small {
+    font-size: 10vw;
+  }
 }

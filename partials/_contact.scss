@@ -6,9 +6,12 @@
 }
 .contact-icons {
   display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-  img {
-    margin: 50px;
-  }
+  justify-content: space-around;
+  margin-bottom: 100px;
+  // img {
+  //   padding: 50px;
+  //   @include small {
+  //     padding: 0;
+  //   }
+  // }
 }

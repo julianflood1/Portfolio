@@ -11,6 +11,10 @@ h1 {
     list-style-type: none;
     font-size: 40px;
     padding: 20px;
+    @include small {
+      font-size: 10vw;
+      padding: 20px;
+    }
   }
 }
 .skills-link:hover {

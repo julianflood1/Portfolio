@@ -5,15 +5,26 @@
   z-index: 1;
   justify-content: space-between;
   align-items: center;
-  opacity: .7;
+  opacity: .8;
+  @include small {
+    justify-content: center;
+    width: 100%;
+  }
   li {
     list-style-type: none;
     display: inline;
     padding-right: 20px;
+    @include small {
+      display: none;
+    }
   }
   h2{
     margin-left: 1%;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    @include small {
+      letter-spacing: 7px;
+      margin-left: 8%;
+    };
   }
 }
 
@@ -21,6 +32,7 @@
   background-color: #373737;
   color: white;
   height: 40px;
+  border: 1px solid white;
 }
 .footer {
   display: flex;

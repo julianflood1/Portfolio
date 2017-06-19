@@ -10,6 +10,9 @@
   margin: 10px;
   flex-grow: 1;
   transition: all .2s ease-in-out;
+  @include small {
+    width: 80%;
+  };
   p {
     font-size: 30px;
     margin: 0;
