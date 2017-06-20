@@ -12,11 +12,12 @@
     height: 600px;
   }
   h1 {
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     color: white;
     margin-top: 100px;
     letter-spacing: 12px;
+    text-shadow: 3px 3px 8px #000;
     @include small {
       text-align: center;
       font-size: 10vw;
