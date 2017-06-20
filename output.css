@@ -56,6 +56,31 @@ h1 {
 .skills-link:hover {
   cursor: pointer; }
 
+.effects li:before,
+.effects li:after {
+  display: inline-block;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.2s; }
+
+.effects li:before {
+  margin-right: 10px;
+  content: '{';
+  transform: translate(20px); }
+
+.effects li:after {
+  margin-left: 10px;
+  content: '}';
+  transform: translate(-20px); }
+
+.effects li:hover:before,
+.effects li:hover:after,
+.effects li:focus:before,
+.effects li:focus:after {
+  opacity: 1;
+  -webkit-transform: translate(0px);
+  -moz-transform: translate(0px);
+  transform: translate(0px); }
+
 .experience {
   display: flex;
   flex-direction: column;
@@ -84,12 +109,11 @@ h1 {
     .landing {
       height: 600px; } }
   .landing h1 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     color: white;
     margin-top: 100px;
-    letter-spacing: 12px;
-    text-shadow: 3px 3px 8px #000; }
+    letter-spacing: 12px; }
     @media (max-width: 540px) {
       .landing h1 {
         text-align: center;

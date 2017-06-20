@@ -25,28 +25,32 @@ h1 {
   @extend .header-style;
 }
 
-//
-// .effects li:before,
-// .effects li:after {
-//     display: inline-block;
-//     opacity: 0;
-//     transition: transform 0.3s, opacity 0.2s;
-// }
-//
-// .effects li:before {
-//     margin-right: 10px;
-//     content: '[';
-//     transform: translate(20px);
-// }
-//
-// .effects li:after {
-//     margin-left: 10px;
-//     content: ']';
-//     transform: translate(-20px);
-// }
-//
-// .effects li:focus:before,
-// .effects li:focus:after {
-//     opacity: 1;
-//     transform: translate(0px);
-// }
+
+.effects li:before,
+.effects li:after {
+    display: inline-block;
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.effects li:before {
+    margin-right: 10px;
+    content: '{';
+    transform: translate(20px);
+}
+
+.effects li:after {
+    margin-left: 10px;
+    content: '}';
+    transform: translate(-20px);
+}
+
+.effects li:hover:before,
+.effects li:hover:after,
+.effects li:focus:before,
+.effects li:focus:after {
+    opacity: 1;
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    transform: translate(0px);
+}
