@@ -66,6 +66,10 @@
   @extend .panel-img;
   background-image: url(img/rotten-tomatoes.png);
 }
+#drunk-tank-img {
+  @extend .panel-img;
+  background-image: url(img/drunk-tank.png);
+}
 
 .text{
   width: 100%;
