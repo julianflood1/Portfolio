@@ -70,6 +70,10 @@
   @extend .panel-img;
   background-image: url(img/drunk-tank.png);
 }
+#get-doctor-img {
+  @extend .panel-img;
+  background-image: url(img/get-doctor.png);
+}
 
 .text{
   width: 100%;

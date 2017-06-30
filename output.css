@@ -34,7 +34,10 @@ body, html {
 .contact-icons {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  transition: all .2s ease-in-out; }
+  .contact-icons :hover {
+    transform: scale(1.3); }
 
 h1 {
   text-align: center;
@@ -181,7 +184,7 @@ h1 {
   justify-content: space-around;
   flex-wrap: wrap; }
 
-.panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img, #drunk-tank-img {
+.panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img, #drunk-tank-img, #get-doctor-img {
   width: 100%;
   height: 100%;
   border: solid black 2px;
@@ -202,6 +205,9 @@ h1 {
 
 #drunk-tank-img {
   background-image: url(img/drunk-tank.png); }
+
+#get-doctor-img {
+  background-image: url(img/get-doctor.png); }
 
 .text {
   width: 100%;
