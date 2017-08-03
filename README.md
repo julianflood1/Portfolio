@@ -8,7 +8,7 @@ http://julianflood1.github.io/Portfolio
 
 ## Description
 
-_This is my portfolio that I made for Epicodus as my final project for the CSS course. It is a culmination of what I have learned to this point. _
+This is my portfolio that I made for Epicodus as my final project for the CSS course. It is a culmination of what I have learned to this point.
 
 ## Setup/Installation Requirements
 
