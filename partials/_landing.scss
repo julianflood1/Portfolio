@@ -4,46 +4,45 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 70vh;
   justify-content: center;
   align-items: center;
   border-bottom: 10px solid black;
+  z-index: 1;
   @include small {
-    height: 600px;
+    height: 70vh;
   }
   h1 {
-    font-size: 70px;
+    //responsive for height?
+    font-size: 6vh;
+    // font-size: 6em;
     text-align: center;
     color: white;
     margin-top: 100px;
     letter-spacing: 12px;
     text-shadow: 3px 5px 8px #000;
     @include small {
-      text-align: center;
-      font-size: 10vw;
+      // font-size: 4em;
+      font-size: 5vh;
     }
   }
 }
 .landing-opacity {
   background-color:rgba(0,0,0,0.4);
-  width: 80%;
+  width: 100%;
   height: 100%;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  z-index: 0;
 }
 .landing-text {
   color: white;
-  opacity: 1;
-  z-index: 1;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -50px;
   p {
-    font-size: 20px;
+    font-size: 2vh;
     @include small {
-      font-size: 4vw;
+      font-size: 2vh;
+      // font-size: 1.2em;
     }
   }
 }

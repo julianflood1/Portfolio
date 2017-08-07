@@ -16,7 +16,7 @@
 
   $(".experience-link").click(function(){
     $("body, html").stop()
-    $("body, html").animate({ scrollTop: $(".experience-target").offset().top - 40}, "slow");
+    $("body, html").animate({ scrollTop: $(".experience-target").offset().top -40}, "slow");
   });
   $(".skills-link").click(function(){
     $("body, html").stop()

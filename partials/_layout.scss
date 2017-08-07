@@ -1,14 +1,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .main {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  z-index: 1;
 }
 
 .header-style {

@@ -41,14 +41,15 @@
   opacity: .8;
   p {
     margin: 0;
+    display: inline;
   }
 }
 #back-to-top {
-  padding-right: 5%;
+  padding-right: 4%;
   height: 20px;
 }
 #copywrite {
-  padding-left: 2%;
+  margin-left: 2%;
 }
 #back-to-top:hover {
   cursor: pointer;
