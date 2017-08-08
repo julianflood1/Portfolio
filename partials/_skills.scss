@@ -12,7 +12,7 @@ h1 {
     font-size: 40px;
     padding: 20px;
     @include small {
-      font-size: 10vw;
+      font-size: 23px;
       padding: 20px;
     }
   }
@@ -25,6 +25,9 @@ h1 {
   @extend .header-style;
 }
 
+.effects {
+  display: none;
+}
 
 .effects li:before,
 .effects li:after {

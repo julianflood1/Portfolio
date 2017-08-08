@@ -35,6 +35,10 @@
   $('.landing-text').fadeIn(2000);
 
 
+  document.addEventListener('scroll', function() {
+    if(window.scrollY > 1150) {
+      $('.effects').fadeIn(2000);
+    }
 
-
+  });
 });
