@@ -30,4 +30,11 @@
     $("body, html").stop()
     $("body, html").animate({ scrollTop: $(".container").offset().top - 40}, "slow");
   });
+
+  $('.name').fadeIn(2000);
+  $('.landing-text').fadeIn(2000);
+
+
+
+
 });

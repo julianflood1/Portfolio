@@ -117,7 +117,8 @@ h1 {
     color: white;
     margin-top: 100px;
     letter-spacing: 12px;
-    text-shadow: 3px 5px 8px #000; }
+    text-shadow: 3px 5px 8px #000;
+    display: none; }
     @media (max-width: 545px) {
       .landing h1 {
         font-size: 5vh; } }
@@ -134,7 +135,8 @@ h1 {
   margin-right: 5%;
   margin-top: -50px; }
   .landing-text p {
-    font-size: 2vh; }
+    font-size: 2vh;
+    display: none; }
     @media (max-width: 545px) {
       .landing-text p {
         font-size: 2vh; } }

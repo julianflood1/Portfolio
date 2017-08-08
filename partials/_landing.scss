@@ -21,6 +21,7 @@
     margin-top: 100px;
     letter-spacing: 12px;
     text-shadow: 3px 5px 8px #000;
+    display: none;
     @include small {
       // font-size: 4em;
       font-size: 5vh;
@@ -40,6 +41,7 @@
   margin-top: -50px;
   p {
     font-size: 2vh;
+    display: none;
     @include small {
       font-size: 2vh;
       // font-size: 1.2em;
