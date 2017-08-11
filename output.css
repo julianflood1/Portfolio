@@ -258,6 +258,13 @@ h1 {
     @media (max-width: 545px) {
       .navbar li {
         display: none; } }
+  .navbar h2 {
+    margin-left: 1%;
+    letter-spacing: 4px; }
+    @media (max-width: 545px) {
+      .navbar h2 {
+        letter-spacing: 7px;
+        margin-left: 8%; } }
 
 .navbar, .footer {
   background-color: #373737;
