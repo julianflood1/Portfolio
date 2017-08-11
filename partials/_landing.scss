@@ -4,13 +4,13 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   border-bottom: 10px solid black;
   z-index: 1;
   @include small {
-    height: 70vh;
+    height: 100vh;
   }
   h1 {
     //responsive for height?

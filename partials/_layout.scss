@@ -5,13 +5,14 @@
 
 .main {
   display: flex;
-  flex-grow: 1;
+  // flex-grow: 1;
   flex-direction: column;
 }
 
 .header-style {
   font-size: 60px;
   letter-spacing: 10px;
+  text-indent: 10px;
   @include small {
     font-size: 10vw;
   }

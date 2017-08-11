@@ -16,12 +16,12 @@ body, html {
 
 .main {
   display: flex;
-  flex-grow: 1;
   flex-direction: column; }
 
 .header-style, .contact-target, .skills-target, .experience-target {
   font-size: 60px;
-  letter-spacing: 10px; }
+  letter-spacing: 10px;
+  text-indent: 10px; }
   @media (max-width: 545px) {
     .header-style, .contact-target, .skills-target, .experience-target {
       font-size: 10vw; } }
@@ -105,14 +105,14 @@ h1 {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   border-bottom: 10px solid black;
   z-index: 1; }
   @media (max-width: 545px) {
     .landing {
-      height: 70vh; } }
+      height: 100vh; } }
   .landing h1 {
     font-size: 6vh;
     text-align: center;
@@ -156,7 +156,7 @@ h1 {
   margin: 1.5%;
   flex-grow: 1;
   transition: all .3s ease-in-out;
-  box-shadow: 3px 0px 5px 6px #393838; }
+  box-shadow: 3px 3px 3px 3px #393838; }
   @media (max-width: 545px) {
     .panel {
       width: 200px; } }
@@ -178,6 +178,7 @@ h1 {
   flex-grow: 1; }
 
 #panel-section {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -263,9 +264,9 @@ h1 {
     letter-spacing: 4px; }
     @media (max-width: 545px) {
       .navbar h2 {
-        font-size: 18px;
+        font-size: 20px;
         letter-spacing: 7px;
-        margin-left: 10%; } }
+        padding-left: 20px; } }
 
 .navbar, .footer {
   background-color: #373737;
