@@ -18,14 +18,14 @@
       display: none;
     }
   }
-  h2{
-    margin-left: 1%;
-    letter-spacing: 4px;
-    @include small {
-      letter-spacing: 7px;
-      margin-left: 8%;
-    };
-  }
+  // h2{
+  //   margin-left: 1%;
+  //   letter-spacing: 4px;
+  //   @include small {
+  //     letter-spacing: 7px;
+  //     margin-left: 8%;
+  //   };
+  // }
 }
 
 .navbar, .footer {
