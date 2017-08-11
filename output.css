@@ -152,14 +152,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 1.5%;
   flex-grow: 1;
   transition: all .3s ease-in-out;
   box-shadow: 3px 0px 5px 6px #393838; }
   @media (max-width: 545px) {
     .panel {
-      width: 80%; } }
+      width: 200px; } }
   .panel p {
     font-size: 30px;
     margin: 0; }
@@ -263,9 +263,9 @@ h1 {
     letter-spacing: 4px; }
     @media (max-width: 545px) {
       .navbar h2 {
-        font-size: 10px;
+        font-size: 18px;
         letter-spacing: 7px;
-        margin-left: 8%; } }
+        margin-left: 10%; } }
 
 .navbar, .footer {
   background-color: #373737;
