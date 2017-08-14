@@ -11,6 +11,10 @@ body, html {
   font-family: 'Poppins', sans-serif;
 }
 
+@font-face {
+    font-family: arista;
+    src: url('florentia.ttf');
+}
 
 @import
 'partials/media-queries',

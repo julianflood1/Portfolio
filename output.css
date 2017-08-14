@@ -10,6 +10,9 @@ body, html {
   padding: 0;
   font-family: 'Poppins', sans-serif; }
 
+@font-face {
+  font-family: arista;
+  src: url("florentia.ttf"); }
 .container {
   display: flex;
   flex-direction: column; }
@@ -113,10 +116,9 @@ h1 {
     .landing {
       height: 100vh; } }
   .landing h1 {
-    font-size: 9vh;
+    font-size: 8vh;
     text-align: center;
     color: white;
-    margin-top: 100px;
     letter-spacing: 12px;
     text-shadow: 3px 5px 8px #000;
     display: none; }
@@ -146,6 +148,22 @@ h1 {
   .landing-text p {
     font-size: 2vh;
     display: none; }
+
+#me {
+  margin-top: -80px;
+  height: auto;
+  width: 220px;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  margin-bottom: 20px; }
+
+#backdrop {
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  height: 70%;
+  align-self: center; }
 
 .panel {
   height: 350px;

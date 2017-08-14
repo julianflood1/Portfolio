@@ -31,8 +31,9 @@
     $("body, html").animate({ scrollTop: $(".container").offset().top - 40}, "slow");
   });
 
-  $('.name').fadeIn(2000);
-  $('.landing-text').fadeIn(2000);
+  $('.name').fadeIn(3000);
+  $('.landing-text').fadeIn(3000);
+  $('#me').fadeIn(3000);
 
 
   document.addEventListener('scroll', function() {
