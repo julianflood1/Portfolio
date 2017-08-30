@@ -13,16 +13,15 @@
     height: 100vh;
   }
   h1 {
-    font-size: 8vh;
-    // font-family: florentia;
+    font-size: 7vh;
+    margin-top: -20px;
+    font-weight: lighter;
+    font-family: LemonMilk;
     text-align: center;
     color: white;
-    // margin-top: 100px;
-    letter-spacing: 12px;
-    text-shadow: 3px 5px 8px #000;
-    display: none;
+    letter-spacing: 19px;
+    margin-bottom: 30px;
     @include small {
-      // font-size: 4em;
       font-size: 7vh;
     }
   }
@@ -45,7 +44,7 @@
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: -50px;
+  margin-top: -20px;
   p {
     font-size: 2vh;
     display: none;
@@ -57,19 +56,22 @@
 }
 
 #me {
-  margin-top: -80px;
   height: auto;
   width:220px;
   border-radius: 20px;
   border: 1px solid lightgrey;
-  margin-bottom: 20px;
+  margin-top: 80px;
+  filter: sepia(10%);
 }
 
 #backdrop {
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   margin-top: 100px;
   background-color:rgba(0,0,0,0.7);
   width: 80%;
-  height: 70%;
+  height: 100%;
   align-self: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
