@@ -116,7 +116,7 @@ h1 {
     .landing {
       height: 100vh; } }
   .landing h1 {
-    font-size: 7vh;
+    font-size: 4vw;
     margin-top: -20px;
     font-weight: lighter;
     font-family: LemonMilk;
@@ -126,7 +126,7 @@ h1 {
     margin-bottom: 30px; }
     @media (max-width: 545px) {
       .landing h1 {
-        font-size: 7vh; } }
+        font-size: 7vw; } }
 
 .landing-opacity {
   background-color: rgba(0, 0, 0, 0.2);
@@ -137,9 +137,7 @@ h1 {
   position: relative; }
 
 #learn-more {
-  align-self: center;
-  position: absolute;
-  bottom: 2%; }
+  align-self: center; }
 
 .landing-text {
   color: white;
@@ -150,6 +148,9 @@ h1 {
   .landing-text p {
     font-size: 2vh;
     display: none; }
+    @media (max-width: 545px) {
+      .landing-text p {
+        font-size: 15px; } }
 
 #me {
   height: auto;
@@ -191,9 +192,10 @@ h1 {
     margin: 0; }
 
 .panel:hover {
-  transform: scale(1.1); }
+  transform: scale(1.1);
+  cursor: pointer; }
 
-#panel-section a {
+#panel-section a, #designs a {
   width: 100%;
   height: 300px;
   display: flex;
@@ -203,14 +205,14 @@ h1 {
   color: black;
   flex-grow: 1; }
 
-#panel-section {
+#panel-section, #designs {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap; }
 
-.panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img, #drunk-tank-img, #get-doctor-img, #animal-tracker-img, #cutthroat-img, #geocacher-img {
+.panel-img, #blazer-img, #arctic-wild-img, #album-artwork-img, #rotten-tomatoes-img, #drunk-tank-img, #get-doctor-img, #animal-tracker-img, #cutthroat-img, #geocacher-img, #johnson-img, #nomad-img, #meat-img, #quickhorse-img, #yoga-img {
   width: 100%;
   height: 100%;
   border-top: 1px solid black;
@@ -244,6 +246,21 @@ h1 {
 #geocacher-img {
   background-image: url(img/geocacher.png); }
 
+#johnson-img {
+  background-image: url(img/johnson.png); }
+
+#nomad-img {
+  background-image: url(img/nomad.png); }
+
+#meat-img {
+  background-image: url(img/meat.png); }
+
+#quickhorse-img {
+  background-image: url(img/quickhorse.png); }
+
+#yoga-img {
+  background-image: url(img/yoga.png); }
+
 .text {
   width: 100%;
   height: 100%;
@@ -265,6 +282,105 @@ h1 {
   color: white;
   text-align: center;
   margin: 15px; }
+
+.experience h2 {
+  text-align: center;
+  font-size: 40px; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: center;
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */ }
+  .modal-content img {
+    height: 45%;
+    width: 45%; }
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
+
+#johnson {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  #johnson img {
+    margin: 10px;
+    border: 1px solid black; }
+
+#nomad {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  #nomad img {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px; }
+
+#meat, #quickhorse {
+  width: 100%; }
+  #meat img, #quickhorse img {
+    width: 100%; }
+
+#yoga {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #yoga img {
+    width: 100%; }
+
+.modal img:hover {
+  transform: scale(1.1); }
+
+.process {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  .process img {
+    margin: 10px;
+    border: 1px solid black; }
 
 .navbar {
   display: flex;

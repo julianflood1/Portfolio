@@ -13,7 +13,7 @@
     height: 100vh;
   }
   h1 {
-    font-size: 7vh;
+    font-size: 4vw;
     margin-top: -20px;
     font-weight: lighter;
     font-family: LemonMilk;
@@ -22,7 +22,7 @@
     letter-spacing: 19px;
     margin-bottom: 30px;
     @include small {
-      font-size: 7vh;
+      font-size: 7vw;
     }
   }
 }
@@ -36,8 +36,6 @@
 }
 #learn-more {
   align-self: center;
-  position: absolute;
-  bottom: 2%
 }
 .landing-text {
   color: white;
@@ -49,8 +47,7 @@
     font-size: 2vh;
     display: none;
     @include small {
-      // font-size: 2vh;
-      // font-size: 1.2em;
+      font-size: 15px;
     }
   }
 }
