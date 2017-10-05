@@ -59,6 +59,10 @@
   border: 1px solid lightgrey;
   margin-top: 80px;
   filter: sepia(10%);
+  @include small {
+    width: 160px;
+    height: auto;
+  }
 }
 
 #backdrop {
