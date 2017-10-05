@@ -27,7 +27,7 @@ body, html {
   text-indent: 10px; }
   @media (max-width: 545px) {
     .header-style, .contact-target, .skills-target, .experience-target {
-      font-size: 10vw; } }
+      font-size: 5vw; } }
 
 .contact-link:hover {
   cursor: pointer; }
@@ -54,13 +54,16 @@ h1 {
     @media (max-width: 545px) {
       .skills li {
         font-size: 23px;
-        padding: 20px; } }
+        padding: 0;
+        text-align: center; } }
 
 .skills-link:hover {
   cursor: pointer; }
 
 .effects {
-  display: none; }
+  display: none;
+  margin-left: -40px;
+  text-align: center; }
 
 .effects li:before,
 .effects li:after {
@@ -114,7 +117,7 @@ h1 {
   z-index: 1; }
   @media (max-width: 545px) {
     .landing {
-      height: 100vh; } }
+      height: 100%; } }
   .landing h1 {
     font-size: 4vw;
     margin-top: -20px;
@@ -404,7 +407,8 @@ h1 {
     padding-right: 20px; }
     @media (max-width: 545px) {
       .navbar li {
-        display: none; } }
+        display: none;
+        padding: 0; } }
   .navbar h2 {
     margin-left: 1%;
     letter-spacing: 4px; }
