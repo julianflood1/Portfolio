@@ -9,6 +9,11 @@
   justify-content: space-around;
   margin-bottom: 8%;
   & :hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
   }
+}
+
+.icons img{
+  height: 60%;
+  width: auto;
 }

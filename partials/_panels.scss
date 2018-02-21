@@ -1,7 +1,8 @@
 .panel {
   height: 350px;
   width: 350px;
-  background-color: #e2e2e2;
+  min-width: 350px;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,8 +10,6 @@
   margin: 1.5%;
   flex-grow: 1;
   transition: all .3s ease-in-out;
-  box-shadow: 3px 3px 3px 3px #393838;
-  border-radius: 3px;
   @include small {
     width: 200px;
     // width: 80%;
@@ -18,6 +17,7 @@
   p {
     font-size: 25px;
     margin: 0;
+    color: white;
   }
 }
 .panel:hover {
@@ -56,17 +56,9 @@
   @extend .panel-img;
   background-image: url(img/blazers.png);
 }
-#arctic-wild-img {
-  @extend .panel-img ;
-  background-image: url(img/arctic-wild.png);
-}
 #album-artwork-img {
   @extend .panel-img ;
   background-image: url(img/album-artwork.png);
-}
-#rotten-tomatoes-img {
-  @extend .panel-img ;
-  background-image: url(img/rotten-tomatoes.png);
 }
 #drunk-tank-img {
   @extend .panel-img;
@@ -109,6 +101,23 @@
   @extend .panel-img;
   background-image: url(img/yoga.png)
 }
+#righton-img {
+  @extend .panel-img;
+  background-image: url(img/righton/rightonbluedisplay.png)
+}
+#oap-img {
+  @extend .panel-img;
+  background-image: url(img/oap/oap.png)
+}
+#eber-img {
+  @extend .panel-img;
+  background-image: url(img/eber/eber.png);
+}
+#pickup-img {
+  @extend .panel-img;
+  background-image: url(img/gameplay.png);
+}
+
 
 
 .text{
@@ -232,7 +241,7 @@
 }
 
 .modal img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .process {
@@ -245,4 +254,41 @@
     margin: 10px;
     border: 1px solid black;
   }
+}
+
+#righton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} img {
+  margin-top: 10px;
+}
+#oap{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.oap-process{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#eber img {
+  width: 85%;
+  height: auto;
+}
+#eber-lowfidelity{
+  width: 90%;
+  height: auto;
+}
+#sitemap{
+  width: 90%;
+  height: auto;
+}
+.wireframe{
+  width: 90%;
+  height: auto;
 }

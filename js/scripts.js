@@ -1,7 +1,5 @@
-
-
     // Parralax Scrolling
-    $(document).ready(function() {
+$(document).ready(function() {
 
   var boxes = $('[data-scroll-speed]'),
   $window = $(window);
@@ -39,7 +37,7 @@
 
   document.addEventListener('scroll', function() {
     if(window.scrollY > 1150) {
-      $('.effects').fadeIn(2000);
+      $('.effects').fadeIn(2500);
     }
 
   });
@@ -50,6 +48,11 @@
   var modal3 = document.getElementById('myModal3');
   var modal4 = document.getElementById('myModal4');
   var modal5 = document.getElementById('myModal5');
+  var modal6 = document.getElementById('myModal6');
+  var modal7 = document.getElementById('myModal7');
+  var modal8 = document.getElementById('myModal8');
+
+
 
 
   // Get the button that opens the modal
@@ -58,6 +61,11 @@
   var trigger3 = document.getElementById("trigger3");
   var trigger4 = document.getElementById("trigger4");
   var trigger5 = document.getElementById("trigger5");
+  var trigger6 = document.getElementById("trigger6");
+  var trigger7 = document.getElementById("trigger7");
+  var trigger8 = document.getElementById("trigger8");
+
+
 
 
   // Get the <span> element that closes the modal
@@ -66,6 +74,11 @@
   var span3 = document.getElementsByClassName("close")[2];
   var span4 = document.getElementsByClassName("close")[3];
   var span5 = document.getElementsByClassName("close")[4];
+  var span6 = document.getElementsByClassName("close")[5];
+  var span7 = document.getElementsByClassName("close")[6];
+  var span8 = document.getElementsByClassName("close")[7];
+
+
 
 
 
@@ -85,6 +98,15 @@
   trigger5.onclick = function() {
       modal5.style.display = "block";
   }
+  trigger6.onclick = function() {
+      modal6.style.display = "block";
+  }
+  trigger7.onclick = function() {
+      modal7.style.display = "block";
+  }
+  trigger8.onclick = function() {
+      modal8.style.display = "block";
+  }
 
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
@@ -102,6 +124,15 @@
   span5.onclick = function() {
       modal5.style.display = "none";
   }
+  span6.onclick = function() {
+      modal6.style.display = "none";
+  }
+  span7.onclick = function() {
+      modal7.style.display = "none";
+  }
+  span8.onclick = function() {
+      modal8.style.display = "none";
+  }
 
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
@@ -115,8 +146,13 @@
         modal4.style.display = "none";
       } else if (event.target == modal5) {
         modal5.style.display = "none";
-      } 
-  }
-
+      } else if (event.target == modal6) {
+        modal6.style.display = "none";
+      } else if (event.target == modal7) {
+        modal7.style.display = "none";
+      } else if (event.target == modal8) {
+        modal8.style.display = "none";
+      }
+};
 
 });
