@@ -2,11 +2,9 @@
 
 http://julianflood1.github.io/Portfolio
 
-#### _my Portfolio made for Epicodus on June 16th, 2017_
+#### _my Portfolio updated on 2/20/2018_
 
 #### By _**Julian Flood**_
-
-![screenshot 2017-10-10 15 23 16](https://user-images.githubusercontent.com/24885660/31413641-2729c6a0-adcf-11e7-9ee7-381e57bf069f.png)
 
 
 ## Description
@@ -33,4 +31,4 @@ _HTML, CSS, SCSS, JavaScript, JQuery_
 
 *MIT*
 
-Copyright (c) 2017 **_Julian Flood_**
+Copyright (c) 2018 **_Julian Flood_**
