@@ -12,7 +12,7 @@
   transition: all .3s ease-in-out;
   @include small {
     width: 200px;
-    // width: 80%;
+    margin: 15px;
   };
   p {
     font-size: 25px;
@@ -291,4 +291,10 @@
 .wireframe{
   width: 90%;
   height: auto;
+}
+.modal-header {
+  font-size: 3vw;
+  // @include small {
+  //   font-size: 1px;
+  // };
 }
