@@ -27,7 +27,8 @@ body, html {
   text-indent: 10px; }
   @media (max-width: 545px) {
     .header-style, .contact-target, .skills-target, .experience-target {
-      font-size: 5vw; } }
+      font-size: 7vw;
+      letter-spacing: 8px; } }
 
 .contact-link:hover {
   cursor: pointer; }
@@ -108,6 +109,23 @@ h1 {
 .experience-link:hover {
   cursor: pointer; }
 
+@media (max-width: 545px) {
+  .experience-target {
+    padding-bottom: 0px; } }
+
+.experience h2 {
+  text-align: center;
+  font-size: 40px; }
+  @media (max-width: 545px) {
+    .experience h2 {
+      font-size: 25px; } }
+
+.experience h2:last-of-type {
+  margin-top: 100px; }
+  @media (max-width: 545px) {
+    .experience h2:last-of-type {
+      margin-top: 60px; } }
+
 .landing {
   display: flex;
   background-image: url("img/hawaii2.jpg");
@@ -133,7 +151,7 @@ h1 {
     margin-bottom: 30px; }
     @media (max-width: 545px) {
       .landing h1 {
-        font-size: 20px;
+        font-size: 23px;
         letter-spacing: 5px; } }
 
 .landing-opacity {
@@ -158,7 +176,8 @@ h1 {
     display: none; }
     @media (max-width: 545px) {
       .landing-text p {
-        font-size: 15px; } }
+        font-size: 17px;
+        line-height: 25px; } }
 
 #me {
   height: auto;
@@ -169,7 +188,7 @@ h1 {
   filter: sepia(10%); }
   @media (max-width: 545px) {
     #me {
-      width: 160px;
+      width: 180px;
       height: auto; } }
 
 #backdrop {
@@ -200,8 +219,8 @@ h1 {
       width: 200px;
       margin: 15px; } }
   .panel p {
-    font-size: 25px;
-    margin: 0;
+    font-size: 20px;
+    margin: 7px;
     color: white; }
 
 .panel:hover {
@@ -302,10 +321,6 @@ h1 {
   text-align: center;
   margin: 15px; }
 
-.experience h2 {
-  text-align: center;
-  font-size: 40px; }
-
 /* The Modal (background) */
 .modal {
   display: none;
@@ -361,8 +376,7 @@ h1 {
   align-items: center;
   justify-content: center; }
   #johnson img {
-    margin: 10px;
-    border: 1px solid black; }
+    margin: 10px; }
 
 #nomad {
   width: 100%;
@@ -372,7 +386,6 @@ h1 {
   justify-content: center; }
   #nomad img {
     margin: 10px;
-    border: 1px solid black;
     padding: 5px; }
 
 #meat, #quickhorse {
@@ -398,8 +411,7 @@ h1 {
   align-items: center;
   justify-content: center; }
   .process img {
-    margin: 10px;
-    border: 1px solid black; }
+    margin: 10px; }
 
 #righton {
   display: flex;
@@ -439,6 +451,9 @@ img {
 
 .modal-header {
   font-size: 3vw; }
+  @media (max-width: 545px) {
+    .modal-header {
+      font-size: 4vw; } }
 
 .navbar {
   display: flex;

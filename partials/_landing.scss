@@ -22,7 +22,7 @@
     letter-spacing: 19px;
     margin-bottom: 30px;
     @include small {
-      font-size: 20px;
+      font-size: 23px;
       letter-spacing: 5px;
     }
   }
@@ -48,7 +48,8 @@
     font-size: 2vh;
     display: none;
     @include small {
-      font-size: 15px;
+      font-size: 17px;
+      line-height: 25px;
     }
   }
 }
@@ -61,7 +62,7 @@
   margin-top: 80px;
   filter: sepia(10%);
   @include small {
-    width: 160px;
+    width: 180px;
     height: auto;
   }
 }

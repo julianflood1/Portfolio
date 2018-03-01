@@ -15,8 +15,8 @@
     margin: 15px;
   };
   p {
-    font-size: 25px;
-    margin: 0;
+    font-size: 20px;
+    margin: 7px;
     color: white;
   }
 }
@@ -151,10 +151,7 @@
   @extend #panel-section
 }
 
-.experience h2 {
-  text-align: center;
-  font-size: 40px;
-}
+
 
 //MODAL STYLES
 /* The Modal (background) */
@@ -208,7 +205,6 @@
   justify-content: center;
   img {
     margin: 10px;
-    border: 1px solid black;
   }
 }
 
@@ -220,7 +216,6 @@
   justify-content: center;
   img {
     margin: 10px;
-    border: 1px solid black;
     padding: 5px;
   }
 }
@@ -252,8 +247,7 @@
   justify-content: center;
   img {
     margin: 10px;
-    border: 1px solid black;
-  }
+    }
 }
 
 #righton {
@@ -294,7 +288,7 @@
 }
 .modal-header {
   font-size: 3vw;
-  // @include small {
-  //   font-size: 1px;
-  // };
+  @include small {
+    font-size: 4vw;
+  };
 }

@@ -13,6 +13,7 @@
   letter-spacing: 10px;
   text-indent: 10px;
   @include small {
-    font-size: 5vw;
+    font-size: 7vw;
+    letter-spacing: 8px;
   }
 }
