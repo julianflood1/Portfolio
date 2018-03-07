@@ -24,6 +24,7 @@
     @include small {
       font-size: 23px;
       letter-spacing: 5px;
+      margin-bottom: 15px;
     }
   }
 }
@@ -44,11 +45,15 @@
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -20px;
+  @include small{
+    margin-left: 2%;
+    margin-right: 2%;
+  };
   p {
     font-size: 2vh;
     display: none;
     @include small {
-      font-size: 17px;
+      font-size: 16px;
       line-height: 25px;
     }
   }

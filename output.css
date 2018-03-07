@@ -152,7 +152,8 @@ h1 {
     @media (max-width: 545px) {
       .landing h1 {
         font-size: 23px;
-        letter-spacing: 5px; } }
+        letter-spacing: 5px;
+        margin-bottom: 15px; } }
 
 .landing-opacity {
   background-color: rgba(0, 0, 0, 0.2);
@@ -171,12 +172,16 @@ h1 {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -20px; }
+  @media (max-width: 545px) {
+    .landing-text {
+      margin-left: 2%;
+      margin-right: 2%; } }
   .landing-text p {
     font-size: 2vh;
     display: none; }
     @media (max-width: 545px) {
       .landing-text p {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 25px; } }
 
 #me {
