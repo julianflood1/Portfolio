@@ -4,13 +4,13 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
   border-bottom: 10px solid black;
   z-index: 1;
   @include small {
-    height: 100vh;
+    height: 100%;
   }
   h1 {
     font-size: 4vw;
@@ -19,12 +19,15 @@
     font-family: LemonMilk;
     text-align: center;
     color: white;
-    letter-spacing: 19px;
-    margin-bottom: 30px;
+    letter-spacing: 13px;
+    margin-bottom: 20px;
     @include small {
       font-size: 23px;
       letter-spacing: 5px;
       margin-bottom: 15px;
+    }
+    @include xl {
+      font-size: 35px;
     }
   }
 }
@@ -42,33 +45,38 @@
 .landing-text {
   color: white;
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: -20px;
+  margin-bottom: 50px;
   @include small{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
   };
   p {
-    font-size: 2vh;
+    font-size: 16px;
     display: none;
     @include small {
-      font-size: 16px;
-      line-height: 25px;
+      font-size: 15px;
+      line-height: 23px;
+    }
+    @include xl {
+      font-size: 18px;
     }
   }
 }
 
 #me {
   height: auto;
-  width:220px;
+  width:190px;
   border-radius: 10px;
   border: 1px solid black;
-  margin-top: 80px;
+  margin-top: 50px;
   filter: sepia(10%);
   @include small {
-    width: 180px;
+    width: 150px;
     height: auto;
+    margin-top: 40px;
   }
 }
 
@@ -82,4 +90,10 @@
   align-self: center;
   padding-left: 30px;
   padding-right: 30px;
+  @include small {
+    margin-top: 90px;
+  }
+  // @include xl {
+  //   margin-top: 50px;
+  // }
 }

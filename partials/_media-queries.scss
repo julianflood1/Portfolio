@@ -1,7 +1,14 @@
 $small-width: 545px;
+$xl-width: 1300px;
 
 @mixin small {
   @media (max-width: #{$small-width}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$xl-width}) {
     @content;
   }
 }
