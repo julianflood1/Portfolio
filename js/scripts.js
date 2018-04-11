@@ -43,7 +43,7 @@ $(document).ready(function() {
   });
 
   // Get the modal
-  var modal = document.getElementById('myModal');
+  var modal = document.getElementById('myModal1');
   var modal2 = document.getElementById('myModal2');
   var modal3 = document.getElementById('myModal3');
   var modal4 = document.getElementById('myModal4');
@@ -169,4 +169,3 @@ $(document).ready(function() {
 };
 
 });
-//shitty test

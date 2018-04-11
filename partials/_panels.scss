@@ -121,6 +121,10 @@
   @extend .panel-img;
   background-image: url(img/trailbank.png);
 }
+#craft-img {
+  @extend .panel-img;
+  background-image: url(img/craft/craft-intro.png);
+}
 
 
 
@@ -229,7 +233,7 @@
     width: 100%;
   }
 }
-#yoga {
+#craft {
   display: flex;
   flex-direction: column;
   justify-content: center;
