@@ -423,9 +423,6 @@ h1 {
   #craft img {
     width: 100%; }
 
-.modal img:hover {
-  transform: scale(1.2); }
-
 .process {
   width: 100%;
   display: flex;
@@ -456,7 +453,7 @@ img {
   justify-content: space-around; }
 
 #eber img {
-  width: 85%;
+  width: 95%;
   height: auto; }
 
 #eber-lowfidelity {
@@ -467,15 +464,45 @@ img {
   width: 90%;
   height: auto; }
 
+.modal-text p {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
+  text-align: justify; }
+  @media (max-width: 545px) {
+    .modal-text p {
+      font-size: 15px; } }
+
+.modal-text h3 {
+  color: black;
+  font-size: 24px; }
+  @media (max-width: 545px) {
+    .modal-text h3 {
+      font-size: 20px; } }
+
 .wireframe {
   width: 90%;
-  height: auto; }
+  height: auto;
+  padding-top: 20px; }
+
+.left {
+  text-align: left;
+  margin-top: 70px; }
+
+#eber-final {
+  margin-top: 50px; }
 
 .modal-header {
   font-size: 3vw; }
   @media (max-width: 545px) {
     .modal-header {
       font-size: 4vw; } }
+
+#trailbank img {
+  width: 100%;
+  height: auto; }
 
 .navbar {
   display: flex;
