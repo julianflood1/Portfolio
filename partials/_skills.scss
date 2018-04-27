@@ -1,7 +1,6 @@
 h1 {
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .skills {
@@ -9,8 +8,8 @@ h1 {
   flex-direction: column;
   li {
     list-style-type: none;
-    font-size: 40px;
-    padding: 20px;
+    font-size: 35px;
+    padding: 10px;
     @include small {
       font-size: 23px;
       padding: 0;

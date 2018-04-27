@@ -51,7 +51,6 @@ $(document).ready(function() {
   var modal6 = document.getElementById('myModal6');
   var modal7 = document.getElementById('myModal7');
   var modal8 = document.getElementById('myModal8');
-  var modal9 = document.getElementById('myModal9');
 
 
 
@@ -66,7 +65,6 @@ $(document).ready(function() {
   var trigger6 = document.getElementById("trigger6");
   var trigger7 = document.getElementById("trigger7");
   var trigger8 = document.getElementById("trigger8");
-  var trigger9 = document.getElementById("trigger9");
 
 
 
@@ -80,7 +78,6 @@ $(document).ready(function() {
   var span6 = document.getElementsByClassName("close")[5];
   var span7 = document.getElementsByClassName("close")[6];
   var span8 = document.getElementsByClassName("close")[7];
-  var span9 = document.getElementsByClassName("close")[8];
 
 
 
@@ -112,9 +109,7 @@ $(document).ready(function() {
   trigger8.onclick = function() {
       modal8.style.display = "block";
   }
-  trigger9.onclick = function() {
-      modal9.style.display = "block";
-  }
+
 
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
@@ -141,9 +136,6 @@ $(document).ready(function() {
   span8.onclick = function() {
       modal8.style.display = "none";
   }
-  span9.onclick = function() {
-      modal9.style.display = "none";
-  }
 
   // When the user clicks anywhere outside of the modal, close modal
   window.onclick = function(event) {
@@ -163,9 +155,7 @@ $(document).ready(function() {
         modal7.style.display = "none";
       } else if (event.target == modal8) {
         modal8.style.display = "none";
-      } else if (event.target == modal9) {
-        modal9.style.display = "none";
-      }
+      } 
 };
 
 });

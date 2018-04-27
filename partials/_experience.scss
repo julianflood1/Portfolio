@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: white;
   width: 100%;
+  padding: 50px;
   h1 {
     text-align: center;
     z-index: -1;
@@ -16,9 +17,6 @@
 
 .experience-target {
  @extend .header-style;
- @include small {
-   padding-top: 100px;
-  }
 }
 
 .experience h2 {
