@@ -196,6 +196,7 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-top: -15px;
 }
 
 .close:hover,
@@ -292,9 +293,11 @@
   margin-left: 5%;
   margin-right: 5%;
   font-size: 18px;
-  text-align: justify;
+  text-align: center;
   @include small {
     font-size: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
 .modal-text h3 {
@@ -310,7 +313,6 @@
   padding-top: 20px;
 }
 .left{
-  text-align: left;
   margin-top: 70px;
 }
 #eber-final{
