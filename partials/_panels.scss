@@ -178,6 +178,7 @@
 
 /* Modal Content/Box */
 .modal-content {
+    -webkit-overflow-scrolling: touch;
     text-align: center;
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
